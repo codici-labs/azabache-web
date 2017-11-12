@@ -44,9 +44,9 @@
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    /*color: transparent;*/
     outline: none;
-    background: transparent;
+    /*background: transparent;*/
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -292,7 +292,7 @@
   left: 10;
 }
 .slick-arrow.slick-prev:hover:after {
-  left: 10;
+  left: 60px;
   opacity: 1;
   width: 80px;
 }
@@ -314,10 +314,10 @@
   right: 300px;
 }
 .slick-arrow.slick-next:hover:before {
-  right: 120px;
+  /*right: 120px;*/
 }
 .slick-arrow.slick-next:hover:after {
-  right: 113px;
+  right: 60px;
   opacity: 1;
   width: 80px;
 }
