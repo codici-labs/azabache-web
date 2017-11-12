@@ -1,8 +1,10 @@
-
+body {
+  overflow: hidden;
+}
 video-responsive {
     position: relative;
-    margin-bottom: 20px;
-    padding-top: 56.25%;
+    /*margin-bottom: 20px;*/
+    /*padding-top: 56.25%;*/
 }
 .video-responsive iframe {
     position: absolute;
