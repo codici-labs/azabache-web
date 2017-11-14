@@ -37,7 +37,7 @@
 	      directionNav: false,
 	      smoothHeight: false,
 	      slideshowSpeed: 7000,
-	      animationSpeed: 600,
+	      animationSpeed: 1500,
 	      randomize: false,
 	      before: function(slider){
 			   $(slider).find(".animated").each(function(){

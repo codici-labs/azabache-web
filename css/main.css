@@ -644,7 +644,7 @@ header.opaque {
 }
 
 /* header logo */
-header .logo {
+header .logo, header .social-media {
 	background: #00161C;
 	float: left;
 	width: auto;
@@ -670,6 +670,7 @@ header .logo a {
 	background: url("../images/logoK@2x.png") no-repeat center;
 	background-size: 140px 34px;
 }
+
 
 /* header social */
 header .header-social {
@@ -809,6 +810,9 @@ ul#nav li.current a:after {
 	transition: all 0.3s ease-in-out;
 }
 
+
+
+
 /* mobile navigation 
 --------------------------------------------------------------------- */
 @media only screen and (max-width:768px) {
@@ -896,6 +900,10 @@ ul#nav li.current a:after {
 		right: 0;
 	}
 
+	header .social-media {
+		background: #1c212a;
+	}
+
 	#nav-wrap ul#nav > li {
 		display: block;
 		float: none;
@@ -952,6 +960,29 @@ ul#nav li.current a:after {
 
 }
 
+
+#nav-wrap ul#nav .azabache-media {
+	font-size: 20px;
+}
+
+.azabache-media a {
+	display:inline-block !important;
+	padding-left:5px !important;
+	padding-right: 5px !important;
+}
+
+.azabache-media a .fa-facebook {
+	margin-right: 1px;
+}
+
+header .azabache-media a:hover .fa-facebook {
+	color:#3b5998;
+}
+
+header .azabache-media a:hover .fa-instagram {
+	color:#cd486b;
+}
+
 /* make sure the menu is visible on larger screens
 --------------------------------------------------------------------- */
 @media only screen and (min-width:769px) {
@@ -959,7 +990,14 @@ ul#nav li.current a:after {
 		display: block !important;
 	}
 
+	#nav-wrap ul#nav .azabache-media {
+		float:right;
+		margin-left: 70px;
+	}
+
 }
+
+
 
 
 /* 
